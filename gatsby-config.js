@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `DV8 IT Services`,
     description: `The human solution, for your technical problem`,
-    author: `@gatsbyjs`,
+    author: `Jack Adamson`,
   },
   plugins: [
     {

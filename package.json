@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "dv8it-website",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jack Adamson <jadamson08@gmail.com",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/styles": "^4.9.0",
@@ -21,33 +21,34 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "typeface-baloo-bhaina": "^0.0.72",
-    "typeface-roboto": "^0.0.75",
-    "typeface-titillium-web": "^0.0.72"
+    "typeface-roboto": "^0.0.75"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
     "prettier": "^1.19.1"
   },
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint": "eslint --ext .js,jsx src --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/dv8it/dv8it.github.io"
   },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run lint && yarn run format"
+    }
   }
 }

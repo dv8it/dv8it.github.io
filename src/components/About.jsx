@@ -1,7 +1,6 @@
-import { Link } from 'gatsby';
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
-import { Toolbar, Typography, Box, Container, Paper } from '@material-ui/core';
+import { Typography, Box, Container } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles(theme => ({
@@ -35,13 +34,21 @@ const About = () => {
         <Typography variant="h3">DV8 IT Systems</Typography>
         <Box p={2} />
         <Typography variant="h6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id mollis metus. Donec sed eleifend dolor. Integer sem ligula, interdum sit amet nisl non, convallis maximus ipsum. Nam tincidunt tincidunt tortor, a hendrerit arcu consequat a. Suspendisse condimentum dui ac turpis fermentum faucibus. Integer blandit sollicitudin lectus non pretium. Sed sit amet euismod risus, ut tincidunt eros.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id mollis metus.
+          Donec sed eleifend dolor. Integer sem ligula, interdum sit amet nisl non, convallis
+          maximus ipsum. Nam tincidunt tincidunt tortor, a hendrerit arcu consequat a. Suspendisse
+          condimentum dui ac turpis fermentum faucibus. Integer blandit sollicitudin lectus non
+          pretium. Sed sit amet euismod risus, ut tincidunt eros.
         </Typography>
         <Box p={2} />
         <Box display="flex" flexDirection="row" className={classes.buttons}>
-          <Button variant="contained" color="primary">Contact Us</Button>
+          <Button variant="contained" color="primary">
+            Contact Us
+          </Button>
           <Box p={1} />
-          <Button variant="contained" color="primary">Learn More</Button>
+          <Button variant="contained" color="primary">
+            Learn More
+          </Button>
         </Box>
       </Box>
     </Container>

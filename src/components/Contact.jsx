@@ -20,8 +20,6 @@ const Contact = () => {
   const classes = useStyles();
   return (
     <Container className={classes.contact}>
-      {/* eslint-disable-next-line jsx-a11y/anchor-has-content,jsx-a11y/anchor-is-valid */}
-      <a name="contact" />
       <Box
         p={8}
         display="flex"
@@ -30,7 +28,9 @@ const Contact = () => {
         alignItems="center"
         className={classes.hero}
       >
-        <Typography variant="h5">Get in Contact With Us</Typography>
+        <Typography variant="h5" name="contact">
+          Get in Contact With Us
+        </Typography>
         <Box p={2} />
         <Typography variant="body1">Get in touch and discuss your needs</Typography>
         <Box p={2} />

@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Typography, Box, Container } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles(theme => ({
   contact: {

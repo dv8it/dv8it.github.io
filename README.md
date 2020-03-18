@@ -1,3 +1,24 @@
+# DV8 IT Website
+
+## Development
+
+To get started with local development:
+
+1) Ensure `yarn` is installed, tested with node v13.11.0
+2) Install node dependencies by running `yarn install`
+3) Start the local dev server with `yarn run develop`
+
+If you encounter build errors after renaming files or installing new dependencies, restart
+the dev server.
+
+## Deployment
+
+Assuming the dependencies are installed as per development, deployment is as simple as running:
+```
+yarn run deploy
+```
+
+# Gatsby Docs
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
